@@ -1,0 +1,36 @@
+<div class="container mt-4">
+    <div class="card" style="width: 40rem;">
+        <div class="card-body">
+            <div class="mb-3 row">
+                <label for="RollNo" class="col-sm-2 col-form-label">Roll No</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="rollno" value="<%= resultData.rollno %>" name="rollno" required>
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="stdname" value="<%= resultData.stdName %>" name="stdName" required>
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="DOB" class="col-sm-2 col-form-label">Date of Birth</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="dob" value="<%= resultData.dob %>" name="dob" required>
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="score" class="col-sm-2 col-form-label">Score</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="score" value="<%= resultData.score %>" name="score" required>
+                </div>
+              </div>
+              <div class="mb-3" row>
+                <a href="/" class="btn btn-secondary">Cancel</a>
+                 <button type="submit" class="btn btn-success">Save</button>
+              </div>
+        </div>
+    </div>
+</div>
+
+
